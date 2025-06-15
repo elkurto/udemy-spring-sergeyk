@@ -1,0 +1,11 @@
+meta {
+  name: users-status-check-rewrite-example
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:8082/foo/bar/users/status/check
+  body: none
+  auth: inherit
+}
